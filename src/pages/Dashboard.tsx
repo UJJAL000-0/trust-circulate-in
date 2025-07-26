@@ -129,10 +129,12 @@ const Dashboard = () => {
                 <CardTitle className="text-sm">QUICK ACTIONS</CardTitle>
               </CardHeader>
               <CardContent className="space-y-2">
-                <Button variant="outline" className="w-full justify-start btn-text">
-                  <User className="h-4 w-4 mr-2" />
-                  PROFILE
-                </Button>
+                <Link to="/profile">
+                  <Button variant="outline" className="w-full justify-start btn-text">
+                    <User className="h-4 w-4 mr-2" />
+                    PROFILE
+                  </Button>
+                </Link>
                 <Button variant="outline" className="w-full justify-start btn-text">
                   <Package className="h-4 w-4 mr-2" />
                   MY LISTINGS
